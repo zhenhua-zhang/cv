@@ -1,5 +1,5 @@
 LATEXMK     := latexmk
-LATEX_FLAGS := -pdf -quiet
+LATEX_FLAGS := -pdfxe -quiet
 
 PANDOC         := pandoc
 PANDOC_FLAGS   := --from latex+raw_tex
