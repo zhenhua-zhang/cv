@@ -57,7 +57,7 @@
 \usepackage{pdfpages}
 \usepackage{changepage}
 \usepackage{setspace}
-\setstretch{1.1}
+\setstretch{1.05}
 %----------------------------------------------------------------------------------------
 %	FONT BASICS
 %----------------------------------------------------------------------------------------
@@ -323,7 +323,7 @@
 		\begin{tabular*}{1\mpwidth}{p{0.78\mpwidth}  r}
 	 		\textcolor{black}{\textbf{#2}} & \colorbox{accentcol}{\makebox[0.22\mpwidth]{\textcolor{white}{\textbf{#1}}}} \\
 			\textcolor{maincol}{#3} & \\
-		\end{tabular*}\\[2pt]
+		\end{tabular*}\\[1pt]
 	
 		\ifthenelse{\isempty{#4}}{}{
 			\cvtext{#4}\\
@@ -398,19 +398,12 @@
 }
 
 
-%=====================================
 %============================================================================%
-%
-%
-%
 %	DOCUMENT CONTENT
-%
-%
-%
 %============================================================================%
 \begin{document}
 
-\columnratio{0.28}
+\columnratio{0.275}
 \setlength{\columnsep}{2em}
 \setlength{\columnseprule}{2pt}
 \colseprulecolor{lightcol}
@@ -453,26 +446,28 @@
 %----------------------------------------------------------------------------------------
 \cvsectionsmall{联系方式}
 
-\iconhref{Home}{12}{zhenhua-zhang.github.io}{https://zhenhua-zhang.github.io}{black}\\[6pt]
-\icontext{MapMarker}{12}{Feodor-Lynen-Stra{\ss}e 7, \newline 30625, Hannover, DE}{black}\\[6pt]
-\icontext{Phone}{12}{+86~189~1023~3783}{black}\\[6pt]
-\iconhref{Envelope}{12}{zhenhua.zhang217@gmail.com}{zhenhua.zhang217@gmail.com}{black}\\[6pt]
-\iconhref{Github}{12}{github.com/zhenhua-zhang}{https://www.github.com/zhenhua-zhang}{black}\\[6pt]
+% \iconhref{Home}{12}{zhenhua-zhang.github.io}{https://zhenhua-zhang.github.io}{black}\\[5pt]
+\icontext{MapMarker}{12}{Feodor-Lynen-Stra{\ss}e 7, \newline 30625, Hannover, DE}{black}\\[5pt]
+\icontext{Phone}{12}{+86~189~1023~3783}{black}\\[5pt]
+\iconhref{Envelope}{12}{zhenhua.zhang217@gmail.com}{zhenhua.zhang217@gmail.com}{black}\\[5pt]
+\iconhref{Github}{12}{github.com/zhenhua-zhang}{https://www.github.com/zhenhua-zhang}{black}\\[5pt]
 
 
 \cvsectionsmall{专业技能}
 
 % Bioinformatics
-\cvskill{生物信息/计算生物学}{9+年}{1} \\[-1pt]
-\cvskill{Linux/Python/R/C}{9+年}{1} \\[-1pt]
-\cvskill{基因组/转录组分析}{7+年}{0.8} \\[-1pt]
-\cvskill{全基因组关联分析}{7+年}{0.7} \\[-1pt]
-\cvskill{单细胞测序 / \newline RNA-seq/ATAC-seq}{5+年}{0.35} \\[-1pt]
-\cvskill{机器学习}{4+年}{0.5} \\[-1pt]
+\cvskill{Linux/Python/R/C}{10+年}{1} \\[-1pt]
+\cvskill{生物信息学}{9+年}{.9} \\[-1pt]
+\cvskill{基因组/转录组分析}{9+年}{0.9} \\[-1pt]
+\cvskill{全基因组关联分析}{8+年}{0.7} \\[-1pt]
+\cvskill{单细胞测序 / \newline RNA-seq/ATAC-seq}{6+年}{0.5} \\[-1pt]
+\cvskill{机器/深度学习}{5+年}{0.4} \\[-1pt]
+% \cvskill{深度学习}{5+年}{0.4} \\[-1pt]
 
 % Language
 \cvskill{汉语普通话} {二甲} {1} \\[-2pt]
-\cvskill{英语(IELTS)} {6.5} {0.80} \\[-2pt] % TODO
+\cvskill{英语}{四六级}{0.80} \\[-2pt] %
+\cvskill{英语(IELTS)} {6.5} {0.80} \\[-2pt] %
 
 \newpage
 %---------------------------------------------------------------------------------------
@@ -489,21 +484,11 @@
 %----------------------------------------------------------------------------------------
 \cvsectionsmall{联系方式}
 
-\iconhref{Home}{12}{zhenhua-zhang.github.io}{https://zhenhua-zhang.github.io}{black}\\[6pt]
-\icontext{MapMarker}{12}{Feodor-Lynen-Stra{\ss}e 7, \newline 30625, Hannover, DE}{black}\\[6pt]
-\icontext{Phone}{12}{+86~189~1023~3783}{black}\\[6pt]
-\iconhref{Envelope}{12}{zhenhua.zhang217@gmail.com}{zhenhua.zhang217@gmail.com}{black}\\[6pt]
-\iconhref{Github}{12}{github.com/zhenhua-zhang}{https://www.github.com/zhenhua-zhang}{black}\\[6pt]
-
-% %---------------------------------------------------------------------------------------
-% %	Interests
-% %----------------------------------------------------------------------------------------
-% \cvsectionsmall{Interests}
-% 
-% \icontext{CaretRight}{12}{Cycling}{black}\\[6pt]
-% \icontext{CaretRight}{12}{Swimming}{black}\\[6pt]
-% \icontext{CaretRight}{12}{PC games}{black}\\[6pt]
-% \icontext{CaretRight}{12}{DIY}{black}\\[6pt]
+\iconhref{Home}{12}{zhenhua-zhang.github.io}{https://zhenhua-zhang.github.io}{black}\\[5pt]
+\icontext{MapMarker}{12}{Feodor-Lynen-Stra{\ss}e 7, \newline 30625, Hannover, DE}{black}\\[5pt]
+\icontext{Phone}{12}{+86~189~1023~3783}{black}\\[5pt]
+\iconhref{Envelope}{12}{zhenhua.zhang217@gmail.com}{zhenhua.zhang217@gmail.com}{black}\\[5pt]
+\iconhref{Github}{12}{github.com/zhenhua-zhang}{https://www.github.com/zhenhua-zhang}{black}\\[5pt]
 
 
 %\cvqrcode{0.3}
@@ -529,51 +514,59 @@
 \cvsectionsmall{科研项目}
 
 \cvevent
-{TODO}
+{2019-2021}
 {潜伏HIV病毒库数量性状位点鉴定}
-{数量性状位点定位/GWAS}
-{\textbf{Zhang, Zhenhua}\textsuperscript{*}, Wim Trypsteen\textsuperscript{*} et al. \textit{IRF7 and RNH1 are modifying factors of HIV-1 reservoirs: a genome-wide association analysis.} BMC medicine 19, no. 1 (2021): 1-17.}
-{JCR Q1, 中科院 Q1}{}{}
+{负责数量性状位点定位; 属于人类功能基因组计划的2000HIV研究(https://2000hiv.com)}
+{\textbf{Zhang, Zhenhua}\textsuperscript{*}, Wim Trypsteen\textsuperscript{*} et al. \textit{IRF7 and RNH1 are modifying factors of HIV-1 reservoirs: a genome-wide association analysis.} BMC medicine 19, no. 1 (2021): 1-17. (JCR Q1, 中科院 Q1, 中科院top期刊, IF=11.15)}
+{}{}{}
 
 \cvevent
-{TODO}
+{2021-2022}
 {单细胞多组学整合鉴定新冠病毒易感性的(表观)遗传学基础}
-{单细胞数据处理与整合/等位染色质特异性开放位点鉴定}
-{Zhang, Bowen\textsuperscript{*}, \textbf{Zhenhua Zhang}\textsuperscript{*}, Valerie A. C. M. Koeken\textsuperscript{*} et al. \textit{An altered and allele-specific open chromatin landscape reveals epigenetic and genetic regulators of innate immunity in COVID-19.} Cell Genomics (2022): 100232.}
+{负责单细胞数据处理与整合, 等位染色质特异性开放位点鉴定}
+{Zhang, Bowen\textsuperscript{*}, \textbf{Zhenhua Zhang}\textsuperscript{*}, Valerie A. C. M. Koeken\textsuperscript{*} et al. \textit{An altered and allele-specific open chromatin landscape reveals epigenetic and genetic regulators of innate immunity in COVID-19.} Cell Genomics (2022): 100232. (JCR Q1，中科院分区表Q1，中科院分区表top期刊，IF=11.10)}
 {}{}{}
 
 \cvevent
-{TODO}
-{HIV病毒携带者的免疫细胞表面蛋白CCR5的数量性状位点鉴定}
-{数量性状位点定位/GWAS}
-{该工作隶属于人类功能基因组计划的2000HIV研究, 详见https://2000hiv.com; 已完成待发表}
+{2022-2025}
+{单细胞水平基因表达数量性状位点(sceQTL)鉴定及其应用}
+{数据分析，文章撰写等}
+{Zhang, Zhenhua, et al. \textit{Unveiling genetic signatures of immune response in immune-related diseases through single-cell eQTL analysis across diverse conditions} Nature Communications (2025), 10.1038/s41467-025-61192-4，已接收. (JCR Q1，中科院分区Q1，TOP期刊，IF=14.70)}
 {}{}{}
 
 \cvevent
-{TODO}
-{HIV病毒携带者的全基因组测序}
-{全基因组测序/遗传变异鉴定(SNP, INDEL, SV, CNV)/拷贝数变异的鉴定及其与精英控制者(elite-controllers)的关系研究}
-{该工作隶属于人类功能基因组计划的2000HIV研究, 详见https://2000hiv.com; 已完成待发表}
-{}{}{}
+{2023-2024}
+{单细胞水平免疫时钟阐明个体间免疫差异}
+{Wenchao Li, Zhenhua Zhang, et al. \textit{Single-cell immune aging clocks reveal inter-individual heterogeneity during infection and vaccination} Nature Aging 5.4 (2025): 607. (JCR Q1，中科院分区Q1，TOP期刊，IF=14.70)}
+{}{}{}{}
 
 \cvevent
-{TODO}
-{单细胞水平基因表达数量性状位点鉴定}
-{}{}{}{}{}
+{2021-2024}
+{HIV病毒携带者免疫细胞表面蛋白CCR5丰度数量性状位点鉴定}
+{负责数量性状位点定位; 属于人类功能基因组计划的2000HIV研究(https://2000hiv.com); \textbf{已完成待发表}}
+{}{}{}{}
 
 \cvevent
-{TODO}
+{2023-至今}
 {进行性脑白质病变(PML)单细胞水平的机理研究}
-{}{}{}{}{}
+{负责单细胞水平差异基因鉴定, 单细胞多组学整合(scRNA-seq, scATAC-seq, scCITE-seq, sc-multiome); \textit{进行中}}
+{}{}{}{}
+
+\cvevent
+{2023-至今}
+{HIV病毒携带者的全基因组测序(WGS)}
+{负责全基因组测序, 遗传变异鉴定(SNP, INDEL, SV, CNV), CNV与精英控制者(elite-controllers)的关系研究; 属于人类功能基因组计划的2000HIV研究(https://2000hiv.com); \textit{已完成}}
+{}{}{}{}
 
 \cvevent
 {其它}
 {枯草芽孢杆菌的益生菌潜力; 稻瘟菌中硫醇蛋白的氧化还原蛋白质组学; 等位基因特异性表达的预测}
-{微生物基因组拼装/遗传变异鉴定/进化分析; 蛋白质组数据分析/功能蛋白鉴定; 等位基因特异性表达鉴定及预测}
+{负责微生物基因组拼装, 遗传变异鉴定, 进化分析; 蛋白质组数据分析, 功能蛋白鉴定; 等位基因特异性表达鉴定及预测}
 {Yi, Yanglei\textsuperscript{*}, \textbf{Zhenhua Zhang}\textsuperscript{*} et al. "Probiotic potential of Bacillus velezensis JW: antimicrobial activity against fish pathogenic bacteria and immune enhancement effects on Carassius auratus." Fish \& shellfish immunology 78 (2018): 322-330. \\
-  Zhang, Xinrong\textsuperscript{*}, \textbf{Zhenhua Zhang}\textsuperscript{*}, and Xiao-Lin Chen. \textit{The redox proteome of thiol proteins in the rice blast fungus Magnaporthe oryzae.} Frontiers in Microbiology 12 (2021): 278. \\
+  Zhang, Xinrong\textsuperscript{*}, \textbf{Zhenhua Zhang}\textsuperscript{*} et al. \textit{The redox proteome of thiol proteins in the rice blast fungus Magnaporthe oryzae.} Frontiers in Microbiology 12 (2021): 278. \\
   \textbf{Zhang, Zhenhua} et al. \textit{Feasibility of predicting allele specific expression from DNA sequencing using machine learning.} Sci Rep 11, no. 1 (2021): 1-11. \\
-}{}{}{}
+}
+{}{}{}
 
 
 
@@ -583,27 +576,33 @@
 \cvsectionsmall{教育背景及工作经历}
 
 \cvevent
-{2021.05-2022.04}
+{2024.05-至今}
+{副研究员 | 中国科学院广州生物医药与健康研究员}
+{细胞谱系研究中心，广东省广州市}
+{}{}{}{}
+
+\cvevent
+{2022.05-2024.04}
 {博士后 | Singh-Chhatwal-Postdoctoral Fellowship Program}
-{德国亥姆霍兹传染研究中心(\textit{Prof.} Y. Li)}
+{精准感染医学中心(CiiM, \textit{Prof.} Y. Li), 德国亥姆霍兹传染研究中心 (HZI)}
 {}{}{}{}
 
 \cvevent
-{2018.04-2022.04}
+{2017.10-2022.04}
 {博士 | 生物信息学与系统生物学}
-{遗传学系(\textit{Prof.} M. Swertz \& \textit{Prof.} Y. Li)，格罗宁根大学医学院}
-{}{}{}{}
-
-\cvevent
-{2014.09-2015.06}
-{支教 | 西部计划}
-{平旺中学, 防城港市, 广西壮族自治区}
+{遗传学系(Dep. of Genetics, \textit{Prof.} M. Swertz \& \textit{Prof.} Y. Li)，荷兰格罗宁根大学 (UG)}
 {}{}{}{}
 
 \cvevent
 {2015.09-2017.06}
 {硕士 | 生物信息学与植物保护学}
 {植物保护学院(\textit{Prof.} 彭友良), 中国农业大学}
+{}{}{}{}
+
+\cvevent
+{2014.09-2015.06}
+{支教 | 西部计划}
+{平旺中学, 防城港市, 广西壮族自治区}
 {}{}{}{}
 
 \cvevent
@@ -643,9 +642,11 @@
 \cvsectionsmall{其它}
 
 \cvevent
-{2018-2023}
+{2018-2025}
 {学术会议}
 {
+  全国生物信息学与系统生物学大会，海口，海南省，中国 \newline
+  RNA Biology (Cold Spring Harbor Asia)，Suzhou，China \newline
   ASHG Conference 2022, Los Angeles, US \newline
   ESHG Conference 2021, virtual \newline
   The Complex Life of RNA 2020, virtual \newline
@@ -662,7 +663,7 @@
   创新型人才国际合作培养项目, 2017, 中国国家留学基金委，北京 \newline
   正大奖学金, 2016, 中国农业大学，海淀，北京 \newline
   学习优秀二等奖学金, 2015, 中国农业大学，海淀，北京 \newline
-  优秀教师, 平旺中学, 2015，平旺中学, 防城港市，广西 \newline
+  优秀教师, 2015，平旺中学, 防城港市，广西 \newline
   社会活动一等奖学金, 2013, 中国农业大学，海淀，北京 \newline
   优秀学生干部, 2013, 中国农业大学，海淀，北京 \newline
   学习优秀三等奖学金, 2011, 中国农业大学，海淀，北京
